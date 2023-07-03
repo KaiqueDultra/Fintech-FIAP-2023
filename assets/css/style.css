@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+#footer {
+    background-color: rgb(5, 11, 64);
+    color: white;
+    height: 80px;
+    margin-top: 20%;
+    font-size: 15px;
+    text-align: center;
+}
+
+#footertexto {
+    margin-top: 20px;
+}
+
+#nada {
+    background-color: rgb(5, 11, 64);
+    height: 180px;
+}
+
+#fim {
+    background-color: rgb(5, 11, 64);
+    text-align: center;
+    color: white;
+    height: 80px;
+}
+
+.middle {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #2980b9;
+    overflow: hidden;
+    position: relative;
+    border-radius: 90px;
+}
+
+.button i {
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+
+.button:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: rgb(92, 70, 225);
+    left: -110%;
+    top: 90%
+}
+
+.button:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+.titulo {
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 30%;
+}
+
+#navegacao {
+    background-color: rgb(5, 11, 64);
+    border-bottom: 1px solid #d8d8d8;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 15px;
+
+}
+
+#imgcartao {
+    float: right;
+    padding-right: 700px;
+    padding-top: 5px;
+    height: 550px;
+    width: 550px;
+}
+
+.azul {
+    color: blue;
+}
+
+#menu {
+    float: left;
+    padding: 10px 0;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#loginconta {
+    float: right;
+    padding: 10px 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.h2 {
+    color: rgb(138, 10, 223);
+}
+
+.titulo {
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+#postagem_cartao {
+    margin-top: 70px;
+    background-color: rgb(47, 5, 114);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 500px;
+}
+
+
+#postagem_conta_funcionalidade_principal {
+    margin-top: 70px;
+    background-color: rgb(211, 211, 212);
+}
+
+#texto_conta_funcionalidade_principal {
+    color: rgb(47, 5, 114);
+    ;
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#texto2_conta_funcionalidade_principal {
+    color: black;
+    padding-top: 7px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#texto_funcionalidades {
+    color: black;
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#texto2_funcionalidades {
+    color: black;
+    padding-top: 10px;
+    padding-left: 50%;
+    font-size: medium;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+#imgapp_funcoes {
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 0%;
+}
+
+#imgsegurando_celular {
+    padding-top: 1px;
+    padding-left: 60%;
+    padding-right: 0%;
+    height: 500px;
+    width: 500px;
+}
+
+#imgpix {
+    color: black;
+    padding-left: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+#texto2_explicacao {
+    color: black;
+    padding-top: 7px;
+    padding-left: 50%;
+    font-size: 20px;
+}
+
+#imgcompras {
+    color: black;
+    padding-top: 45px;
+    padding-left: 50%;
+    width: 28px;
+    height: 28px;
+}
+
+#texto3_funcionalidades {
+    color: black;
+    padding-top: 7px;
+    padding-left: 50%;
+    font-size: medium;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+#imgcartao_acompanhamento {
+    color: black;
+    padding-top: 50px;
+    padding-left: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+#texto4_funcionalidades {
+    color: black;
+    padding-top: 7px;
+    padding-left: 50%;
+    font-size: medium;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+#texto4_explicacao {
+    color: black;
+    padding-top: 7px;
+    padding-left: 50%;
+    font-size: 20px;
+}
+
+#texto3_explicacao {
+    color: black;
+    padding-top: 7px;
+    padding-left: 50%;
+    font-size: 20px;
+}
+
+#texto_cartao {
+    color: white;
+    padding-top: 200px;
+    padding-left: 50px;
+    font-size: xx-large;
+}
+
+#texto2_cartao {
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: medium;
+}
+
+#texto3_cartao {
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: medium;
+}
+
+p {
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+link {
+    color: #5c5c5c;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: white;
+    background: rgb(92, 70, 225);
+    border-radius: 90px;
+}
